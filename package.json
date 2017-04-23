@@ -1,0 +1,77 @@
+{
+  "name": "30-30",
+  "version": "0.0.1",
+  "description": "30 React Components in 30ish days",
+  "main": "index.js",
+  "repository": "git@github.com:SaraVieira/30-30.git",
+  "author": "hey@iamsaravieira.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "styleguidist server",
+    "test": "run-s flow eslint jest",
+    "styleguide:build": "styleguidist build",
+    "jest": "jest",
+    "jest:update": "jest -u",
+    "eslint": "eslint ./components",
+    "eslint:fix": "eslint ./components --fix",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard",
+    "serve": "http-server ./styleguide"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.5",
+    "css-loader": "^0.28.0",
+    "enzyme": "^2.8.2",
+    "enzyme-to-json": "^1.5.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "flow": "^0.2.3",
+    "flow-typed": "^2.1.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^19.0.2",
+    "jss": "^7.1.0",
+    "npm-run-all": "^4.0.2",
+    "postcss-loader": "^1.3.3",
+    "publish-please": "^2.3.1",
+    "react": "^15.5.4",
+    "react-addons-test-utils": "^15.5.1",
+    "react-dom": "^15.5.4",
+    "react-styleguidist": "^5.1.1",
+    "react-svg-loader": "^1.1.1",
+    "style-loader": "^0.16.1",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "eslint": "^3.19.0",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-smart-import": "^0.6.12"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "last 4 iOS versions"
+  ],
+  "jest": {
+    "bail": true,
+    "verbose": true,
+    "moduleNameMapper": {
+      "\\.(svg|jpg|jpeg|png)$": "<rootDir>/config/fileTransformer.js",
+      "\\.(css)$": "identity-obj-proxy"
+    },
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "cacheDirectory": ".tmp/jest"
+  }
+}

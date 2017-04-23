@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[options]
+module.use_strict=true
+module.ignore_non_literal_requires=true
+suppress_comment= \\(.\\|\n\\)*\\$FlowBug
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+module.name_mapper='.*\(.\)' -> '<PROJECT_ROOT>/flow/cssModules.js'
+module.name_mapper='.*\(.graphql\)' -> '<PROJECT_ROOT>/flow/graphql.js'
