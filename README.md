@@ -6,6 +6,12 @@ I decided to chalange myself and create 30 react components in about 30 days. I 
 The Components to be added are here:
 http://flask.io/nHLj2
 
+## Note about the videos 
+
+The videos are not to be seen as tutorials, they will not be edited in the majority of cases and I will Fuck up in all of them probably since they will start from scratch and the components will be built interest on the video. 
+It's mainly to get ideas how to fix common issues and for you to have this experience with me so we can be awesome together 
+There may not be a lot of sound in some of them since I live with 3 people who already think I am insane and I don't perpetuate that :p
+
 ## Stack
 
 
