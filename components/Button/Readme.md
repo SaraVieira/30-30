@@ -1,3 +1,7 @@
+The Video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qRpP_sZuISw" frameborder="0" allowfullscreen></iframe>
+
+Examples:
 Console.log Example
 ```example
 <section>
