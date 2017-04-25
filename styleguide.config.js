@@ -4,6 +4,7 @@ const dir = path.join(__dirname, 'components');
 
 module.exports = {
   components: 'components/**/*.js',
+  styleguideDir: '/',
   webpackConfig: {
     module: {
       loaders: [

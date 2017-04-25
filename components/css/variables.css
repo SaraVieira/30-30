@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root {
+  --dark-sky-blue: #31b3ef;
+  --azure: #15b4f1;
+  --warm-grey: #858585;
+  --greyish: #b0b0b0;
+  --dark-sky-blue-two: #2aa7dc;
+  --golden-yellow: #f8c61c;
+  --steel: #7c8495;
+  --greenish-teal: #48d2a0;
+  --dark-sky-blue-three: #358ed7;
+  --dark-grey-blue: #34495e;
+  --dusk-blue: #2a648e;
+  --white: #f9f4f4;
+  --black: #222;
+  --watermelon: #f54b5e;
+  --denim-blue: #3a5695;
+  --dark-sky-blue-four: #55acee;
+  --pale-red: #e05139;
+  --dark-grey-blue-two: #34495e;
+  --white-two: #fff;
+  --dark-sky-blue-five: #4a90e2;
+  --dark-sky-blue-three-two: #358ed7;
+  --white-three: #f8f4f4;
+  --white-four: #ddd;
+  --white-five: #dedede;
+  --charcoal-grey: #43484d;
+  --warm-grey-two: #858585;
+  --dark-sky-blue-four-two: #55acee;
+  --charcoal-grey-two: #31363d;
+  --greyish-two: #b0b0b0;
+  --steel-two: #7c8495;
+  --white-six: #eee;
+  --greenish-teal-two: #48d2a0;
+  --warm-grey-29: rgba(133, 133, 133, 0.29);
+  --watermelon-two: #f54b5e;
+  --black-two: #222;
+  --steel-three: #7d8997;
+  --faded-blue: #729ec2;
+  --warm-grey-three: #979797;
+  --golden-yellow-two: #f8c51c;
+  --strawberry: #fc1b28;
+  --slate: #465c72;
+  --tree-green: #186e1a;
+  --black-three: #0b0b09;
+  --banana-yellow: #fffa4a;
+  --silver: #dde1e4;
+  --gunmetal: #444a59;
+  --denim-blue-two: #3a5695;
+  --charcoal-grey-three: #454553;
+  --white-seven: #d8d5d5;
+  --pale-red-two: #e05139;
+  --warm-grey-four: #777;
+  --greyish-brown: #444;
+  --faded-pink: #efbdc4;
+  --greenish-teal-three: #37cc71;
+  --black-four: #1a1a1a;
+  --metallic-blue: #55708a;
+  --pale-turquoise: #92f9e2;
+  --blue-purple: #7400ff;
+  --dark-sky-blue-two-two: #2aa7dc;
+  --greyish-48: rgba(176, 176, 176, 0.48);
+  --greenish-teal-four: #2ecc71;
+  --white-eight: #d8d8d8;
+  --cool-grey: #b2bac4;
+  --dusk-blue-two: #2a648e;
+  --big-shadow: 0 12px 22px 0 rgba(0, 0, 0, 0.24);
+  --subtle-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
+  --inner-shadow: inset 4px -14px 11px 0 rgba(0, 0, 0, 0.02);
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}

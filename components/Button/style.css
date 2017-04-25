@@ -1,0 +1,62 @@
+@import '../css/variables.css';
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 200ms ease;
+
+  &[disabled] {
+    cursor: default;
+  }
+
+  &.primary {
+    background-color: var(--dark-sky-blue-three);
+    color: var(--white-two);
+
+    &[disabled] {
+      opacity: 0.24;
+    }
+
+    &:hover {
+      background-color: color(var(--dark-sky-blue-three) l(+10%));
+    }
+  }
+
+  &.secondary {
+    background-color: var(--dark-grey-blue);
+    color: var(--white-two);
+
+    &[disabled] {
+      color: rgba(133, 133, 133, 0.4);
+    }
+
+    &:hover {
+      background-color: color(var(--dark-grey-blue) l(+10%));
+    }
+  }
+
+  &.ghost {
+    background-color: var(--white);
+    border: solid 1px var(--white-four);
+    color: var(--dark-grey-blue-two);
+
+    &[disabled] {
+      color: var(--dark-grey-blue-two);
+      opacity: 0.24;
+    }
+
+    &:hover {
+      background-color: color(var(--white) b(+10%));
+    }
+  }
+}

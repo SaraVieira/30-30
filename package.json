@@ -9,7 +9,7 @@
   "scripts": {
     "start": "styleguidist server",
     "test": "run-s flow eslint jest",
-    "styleguide:build": "styleguidist build",
+    "build": "styleguidist build",
     "jest": "jest",
     "jest:update": "jest -u",
     "eslint": "eslint ./components",
