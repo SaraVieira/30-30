@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonDropdown renders children on click 1`] = `
+<ButtonDropdown>
+  <div
+    className="ButtonDropdownWrapper"
+  >
+    <Button
+      onClick={[Function]}
+    >
+      <button
+        className="button primary"
+        onClick={[Function]}
+      />
+    </Button>
+    <button
+      className="ButtonDropdownIcon"
+      onClick={[Function]}
+    >
+      ▲
+    </button>
+    <div
+      className="dropdown"
+    >
+      Test
+    </div>
+  </div>
+</ButtonDropdown>
+`;
+
+exports[`ButtonDropdown renders children on click 2`] = `
+<ButtonDropdown>
+  <div
+    className="ButtonDropdownWrapper"
+  >
+    <Button
+      onClick={[Function]}
+    >
+      <button
+        className="button primary"
+        onClick={[Function]}
+      />
+    </Button>
+    <button
+      className="ButtonDropdownIcon"
+      onClick={[Function]}
+    >
+      ▲
+    </button>
+    <div
+      className="dropdown"
+    >
+      <p>
+        Test
+      </p>
+    </div>
+  </div>
+</ButtonDropdown>
+`;
+
+exports[`ButtonDropdown renders the text inside it 1`] = `
+<ButtonDropdown>
+  <div
+    className="ButtonDropdownWrapper"
+  >
+    <Button
+      onClick={[Function]}
+    >
+      <button
+        className="button primary"
+        onClick={[Function]}
+      />
+    </Button>
+    <button
+      className="ButtonDropdownIcon"
+      onClick={[Function]}
+    >
+      ▼
+    </button>
+  </div>
+</ButtonDropdown>
+`;

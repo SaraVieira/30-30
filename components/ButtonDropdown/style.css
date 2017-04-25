@@ -1,0 +1,58 @@
+@import '../css/variables.css';
+
+.ButtonDropdownWrapper {
+  position: relative;
+  display: inline-flex;
+  color: var(--white-two);
+  align-items: center;
+  border-radius: 3px;
+
+  & .ButtonDropdownIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 18px;
+    border-left: solid 1px var(--white-two);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: var(--dark-sky-blue-three);
+    color: var(--white-two);
+    margin-left: -2px;
+    min-height: 49px;
+    border-radius: 0 3px 3px 0;
+
+    &:hover {
+      background-color: color(var(--dark-sky-blue-three) l(+10%));
+    }
+  }
+
+  & .dropdown {
+    position: absolute;
+    top: 100%;
+    border-radius: 3px;
+    background-color: var(--white);
+    width: 100%;
+    padding: 10px;
+    color: var(--dark-sky-blue-three);
+
+    & a {
+      color: var(--dark-sky-blue-three);
+      text-decoration: none;
+
+      &:hover {
+        color: color(var(--dark-sky-blue-three) b(+10%));
+      }
+    }
+
+    & ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      & li:not(:last-child) {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
