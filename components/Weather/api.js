@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const base = 'http://api.wunderground.com/api/6972e27d6b748a1f';
+const base = 'https://api.wunderground.com/api/6972e27d6b748a1f';
 const geoLookup = `${base}/geolookup/q/autoip.json`;
 
 
