@@ -25,7 +25,6 @@
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
-    "classnames": "^2.2.5",
     "css-loader": "^0.28.0",
     "enzyme": "^2.8.2",
     "enzyme-to-json": "^1.5.1",
@@ -57,8 +56,11 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "eslint": "^3.19.0",
+    "github-api": "^3.0.0",
     "postcss-cssnext": "^2.10.0",
-    "postcss-smart-import": "^0.6.12"
+    "postcss-smart-import": "^0.6.12",
+    "react-fontawesome": "^1.6.1",
+    "classnames": "^2.2.5"
   },
   "browserslist": [
     "last 3 versions",

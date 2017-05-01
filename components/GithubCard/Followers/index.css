@@ -1,0 +1,9 @@
+.followers {
+  & span {
+    margin-right: 4px;
+  }
+
+  & small:first-of-type {
+    margin-right: 8px;
+  }
+}

@@ -1,8 +1,8 @@
 // @flow
 import React, { Component } from 'react';
-// import classnames from 'classnames';
+import Loading from '../Loading';
 import style from './style.css';
-import getData from './api';
+import getData from '../../Api/weather';
 
 type Unit = 'F' | 'C' | 'f' | 'c';
 
@@ -69,35 +69,28 @@ class Weather extends Component {
   render() {
     return (
       <div>
-        {this.state.loading ?
-          <div className={style.loading}>
-            <div className={style.loadingBar} />
-            <div className={style.loadingBar} />
-            <div className={style.loadingBar} />
-            <div className={style.loadingBar} />
-          </div>
-      :
-          <div>
-            {!this.state.error ?
-              <div className={style.weather}>
-                <h1>{this.state.weather}</h1>
-                <img src={this.state.icon_url} alt={this.state.weather} />
-                <p>
+        {this.state.loading ? <Loading /> :
+        <div>
+          {!this.state.error ?
+            <div className={style.weather}>
+              <h1>{this.state.weather}</h1>
+              <img src={this.state.icon_url} alt={this.state.weather} />
+              <p>
               It&apos;s {
                 (this.props.unit || 'c').toLowerCase() === 'f' ?
                 `${this.state.temp_f}º F` :
                 `${this.state.temp_c}º C`
               }
-                </p>
-                <small>You are currently on {this.state.location}</small>
-              </div>
+              </p>
+              <small>You are currently on {this.state.location}</small>
+            </div>
             :
-              <div className={style.error}>
-                <h1>😞</h1>
+            <div className={style.error}>
+              <h1>😞</h1>
                There has been a problem getting the weather
              </div>
           }
-          </div>
+        </div>
       }
       </div>
     );

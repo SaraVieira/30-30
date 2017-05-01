@@ -1,0 +1,27 @@
+@import "../css/variables.css";
+@import "../css/typo.css";
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css';
+
+.card {
+  background: var(--white-three);
+  min-width: 250px;
+  max-width: 350px;
+  padding: 14px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 3px;
+  box-shadow: var(--subtle-shadow);
+
+  & img {
+    max-width: 150px;
+    box-shadow: var(--subtle-shadow);
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+
+  & .repos {
+    margin-left: 4px;
+  }
+}

@@ -16,3 +16,15 @@ p {
 small {
   font-size: 12px;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--dark-sky-blue-two);
+  transition: all 200ms ease;
+
+  &:hover {
+    color: var(--dark-sky-blue-three);
+  }
+}

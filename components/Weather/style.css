@@ -1,6 +1,5 @@
 @import '../css/variables.css';
 @import '../css/typo.css';
-@import '../css/loading.css';
 
 .weather {
   background: var(--white-three);

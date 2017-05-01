@@ -3,7 +3,7 @@ const path = require('path');
 const dir = path.join(__dirname, 'components');
 
 module.exports = {
-  components: 'components/**/*.js',
+  components: 'components/*/*.js',
   styleguideDir: './',
   webpackConfig: {
     module: {
