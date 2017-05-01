@@ -61056,7 +61056,7 @@ module.exports = [
     },
     {
         'type': 'code',
-        'content': '  <GitHubCard token="c9354d219f982b08162b69be894ce787b8ea7c67"/>',
+        'content': '  <GitHubCard token="c66d29431ba18eee76420810cdb2d1f336e6f390"/>',
         'evalInContext': evalInContext
     },
     {
@@ -61065,7 +61065,7 @@ module.exports = [
     },
     {
         'type': 'code',
-        'content': '  <GitHubCard user="toddmotto" token="c9354d219f982b08162b69be894ce787b8ea7c67"/>',
+        'content': '  <GitHubCard user="toddmotto" token="c66d29431ba18eee76420810cdb2d1f336e6f390"/>',
         'evalInContext': evalInContext
     },
     {
@@ -61074,7 +61074,7 @@ module.exports = [
     },
     {
         'type': 'code',
-        'content': '  <GitHubCard user="github" token="c9354d219f982b08162b69be894ce787b8ea7c67"/>',
+        'content': '  <GitHubCard user="github" token="c66d29431ba18eee76420810cdb2d1f336e6f390"/>',
         'evalInContext': evalInContext
     },
     {
