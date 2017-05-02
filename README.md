@@ -1,7 +1,7 @@
 # 30.30
 30 React Components in 30ish days
 
-I decided to chalange myself and create 30 react components in about 30 days. I can't commit it to be 30 days but I will try my best.
+I decided to challenge myself and create 30 react components in about 30 days. I can't commit it to be 30 days but I will try my best.
 
 The Components to be added are here:
 http://flask.io/nHLj2
